@@ -1,0 +1,19 @@
+name: adventofcode2023
+description: Solutions to the advent of code 2023
+version: 0.1.0
+homepage: https://github.com/traveling-developer/Advent-of-Code/2023
+repository: https://github.com/traveling-developer/Advent-of-Code/2023
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  http: ^1.1.2
+  collection: ^1.17.0
+  quiver: ^3.1.0
+  trotter: ^2.0.0
+  vector_math: ^2.1.4
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.16.0

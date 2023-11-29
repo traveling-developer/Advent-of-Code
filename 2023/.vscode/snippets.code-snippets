@@ -1,0 +1,57 @@
+{
+	"Create Day": {
+		"scope": "dart",
+		"prefix": "day",
+		"body": [
+			"import 'package:adventofcode2023/day.dart';",
+			"",
+			"class Day${1:0} implements Day {",
+			"  @override",
+			"  int get dayNumber => ${1:0};",
+			"",
+			"  @override",
+			"  String solveFirstPuzzle(String puzzleInput) {",
+			"    return '';",
+			"  }",
+			"",
+			"  @override",
+			"  String solveSecondPuzzle(String puzzleInput) {",
+			"    return '';",
+			"  }",
+			"}",
+		],
+		"description": "Creates an implemention of the Day class"
+	},
+	"Create Tests": {
+		"scope": "dart",
+		"prefix": "dayTest",
+		"body": [
+			"import 'package:adventofcode2023/day0${1:0}.dart';",
+			"import 'package:test/test.dart';",
+			"",
+			"void main() {",
+			"  group('day ${1:0}', () {",
+			"    final puzzleInput = '''",
+			"''';",
+			"",
+			"    test('solveFirstPuzzle - example input - returns expected result', () {",
+			"      final day${1:0} = Day${1:0}();",
+			"",
+			"      final solution = day${1:0}.solveFirstPuzzle(puzzleInput);",
+			"",
+			"      expect(solution, equals('SOMEVALUE'));",
+			"    });",
+			"",
+			"    test('solveSecondPuzzle - example input - returns expected result', () {",
+			"      final day${1:0} = Day${1:0}();",
+			"",
+			"      final solution = day${1:0}.solveSecondPuzzle(puzzleInput);",
+			"",
+			"      expect(solution, equals('SOMEVALUE'));",
+			"    });",
+			"  });",
+			"}"
+		],
+		"description": "Creates a test class."
+	}
+}
