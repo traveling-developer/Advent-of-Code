@@ -7,3 +7,9 @@ extension StringSplitting on String {
     return split('\n\n').where((element) => element.isNotEmpty);
   }
 }
+
+extension IsNumeric on String {
+  bool isNumeric() {
+    return num.tryParse(this) != null;
+  }
+}
