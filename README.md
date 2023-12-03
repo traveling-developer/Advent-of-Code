@@ -12,6 +12,16 @@ If you want to see more solutions in other languages have a look [here](https://
 
 ## Solutions for the [Advent of Code 2023](https://adventofcode.com/2023) in [Dart](dart.dev)
 
+### [Day 3](https://adventofcode.com/2023/day/3)
+
+- [Implementation](./2023/lib/day03.dart)
+- [Test](./2023/test/day03_test.dart)
+
+### [Day 2](https://adventofcode.com/2023/day/2)
+
+- [Implementation](./2023/lib/day02.dart)
+- [Test](./2023/test/day02_test.dart)
+
 ### [Day 1](https://adventofcode.com/2023/day/1)
 
 - [Implementation](./2023/lib/day01.dart)
