@@ -164,7 +164,7 @@ class Day3 implements Day {
     return neighborValues;
   }
 
-  List<Cell<String>> _getLeftNeighborCells(Cell cell, Table<String> table) {
+  List<Cell<String>> _getLeftNeighborCells(Cell<String> cell, Table<String> table) {
     var x = cell.x;
     var y = cell.y;
 
@@ -180,7 +180,7 @@ class Day3 implements Day {
     return neighborValues;
   }
 
-  List<Cell<String>> _getRightNeighborCells(Cell cell, Table<String> table) {
+  List<Cell<String>> _getRightNeighborCells(Cell<String> cell, Table<String> table) {
     var x = cell.x;
     var y = cell.y;
 
