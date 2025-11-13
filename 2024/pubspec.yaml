@@ -1,0 +1,19 @@
+name: adventofcode2024
+description: Solutions to the advent of code 2024.
+version: 0.1.0
+homepage: https://github.com/traveling-developer/Advent-of-Code/2024
+repository: https://github.com/traveling-developer/Advent-of-Code/2024
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  http: ^1.2.2
+  collection: ^1.19.0
+  quiver: ^3.2.0
+  trotter: ^2.2.0
+  vector_math: ^2.1.4
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
